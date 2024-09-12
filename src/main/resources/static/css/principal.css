@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5e8;
+}
+hr{
+	border: none;
+	border-bottom: 1px solid #4f4f4f;
+	margin: 20px 0;
+}
+nav {
+    background-color: #9ABC05;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+	width: 150px;
+}
+.titulo{
+	max-width: 600px;
+}
+
+.logo {
+    height: 60px;
+}
+
+.intro {
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro h1 {
+    color: #2F6123;
+    font-size: 2.5em;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #4f4f4f;
+}
+
+.triade-button {
+    background-color: #2F6123;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    width: 300px;
+    height: 200px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    color: #4f4f4f;
+    margin-top: 10px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+.card:nth-child(1) {
+    border-left: 5px solid #8DC73F;
+}
+
+.card:nth-child(2) {
+    border-left: 5px solid #8DC73F;
+}
+
+.card:nth-child(3) {
+    border-left: 5px solid #8DC73F;
+}
+
+.card:nth-child(4) {
+    border-left: 5px solid #0078d7;
+}
+
+h1 .segundo{
+	color: #8DC73F;
+}

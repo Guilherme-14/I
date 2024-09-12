@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0e9;
+}
+
+.provas-por-assunto {
+    background-color: #f0f0e9;
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.provas-por-assunto h1 {
+    color: #2F6123;
+    font-size: 2.5em;
+}
+
+.provas-por-assunto p {
+    color: #4f4f4f;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.botao-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.botao {
+    background-color: #8DC73F;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: left;
+    display: inline-block;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+}
+
+.botao span {
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+.botao:hover {
+    background-color: #7BB02E;
+}
+
+img{
+	width: 100%;
+}
