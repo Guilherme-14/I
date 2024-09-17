@@ -21,13 +21,10 @@ nav {
 }
 .logo{
 	width: 150px;
+	 height: 60px;
 }
 .titulo{
 	max-width: 600px;
-}
-
-.logo {
-    height: 60px;
 }
 
 .intro {
@@ -48,7 +45,7 @@ nav {
     color: #4f4f4f;
 }
 
-.triade-button {
+.redacao-button {
     background-color: #2F6123;
     color: white;
     padding: 10px 20px;
@@ -99,9 +96,17 @@ nav {
 }
 
 .card:nth-child(4) {
-    border-left: 5px solid #0078d7;
+    border-left: 5px solid #8DC73F;
 }
 
 h1 .segundo{
 	color: #8DC73F;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	background-color:#9ABC05;
 }

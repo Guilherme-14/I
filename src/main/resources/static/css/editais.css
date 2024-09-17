@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+nav {
+    background-color: #9ABC05;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+	width: 150px;
+}
+.titulo{
+	max-width: 600px;
+}
+
+.logo {
+    height: 60px;
+}
+
+section{
+	width: 60%;
+	height: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f5f5e8;
+	border: 2px solid #4CAF50;
+	padding: 50px;
+	flex-direction: column;
+	margin-top: 50px;
+	border-radius: 15px;
+}
+
+h1{
+	font-size: 3.4rem;
+	color: #255C2E;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	padding-top: 30px;
+}
+
+.editais{
+	background-color: #9ABC05;
+	width: 200px;
+	height: 100px;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #f5f5e8;
+}
+
+a:hover{
+	background-color: #255C2E;
+}

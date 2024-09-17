@@ -29,4 +29,6 @@ public class Usuario {
 	private String cep;
 	
 	private String anoEscolar;
+	
+	private String senha;
 }

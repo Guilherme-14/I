@@ -19,7 +19,7 @@ private Usuario usuario;
 	@BeforeEach
 	void setUp() {
 		//Arrange
-		usuario = new Usuario(1L, "Guilherme", "Guilherme@gmail.com", "(15)99988-8557", "18220-020", "2° Médio");
+		usuario = new Usuario(1L, "Guilherme", "Guilherme@gmail.com", "(15)99988-8557", "18220-020", "2° Médio", "12345678");
 	}
 	@Test
 	@DisplayName("Testando Getter e Setter do Id")
@@ -65,18 +65,27 @@ private Usuario usuario;
 	}
 	
 	@Test
+	@DisplayName("Testando Getter e Setter da senha")
+	void testSenha() {
+		usuario.setAnoEscolar("12345678");
+		//Assert
+		assertEquals("12345678",usuario.getSenha());
+	}
+	
+	@Test
 	@DisplayName("Testando todos os argumentos")
 	void testConstrutor() {
 		//Act
-		Usuario novoUsuario = new Usuario(3L, "Guilherme", "Guilherme@gmail.com", "(15)99988-8557", "18220-020", "2° Médio");
+		Usuario novoUsuario = new Usuario(3L, "Guilherme", "Guilherme@gmail.com", "(15)99988-8557", "18220-020", "2° Médio", "12345678");
 		//Assert
 		assertAll("novoUsuario",
-				()-> assertEquals(3L,usuario.getId()),
-				()-> assertEquals("Guilherme",usuario.getNome()),
-				()-> assertEquals("Guilherme@gmail.com",usuario.getEmail()), 
-				()-> assertEquals("(15)99988-8557",usuario.getTelefone()),
-				()-> assertEquals("18220-020",usuario.getCep()),
-				()-> assertEquals("2° Médio",usuario.getCep())
+				()-> assertEquals(3L,novoUsuario.getId()),
+				()-> assertEquals("Guilherme",novoUsuario.getNome()),
+				()-> assertEquals("Guilherme@gmail.com",novoUsuario.getEmail()), 
+				()-> assertEquals("(15)99988-8557",novoUsuario.getTelefone()),
+				()-> assertEquals("18220-020",novoUsuario.getCep()),
+				()-> assertEquals("2° Médio",novoUsuario.getAnoEscolar()),
+				()-> assertEquals("12345678",novoUsuario.getSenha())
 				);
 		
 	}

@@ -6,24 +6,26 @@
 }
 
 body {
-    background-color: #f0f0e9;
+    background-color: #EBE9DD;
 }
 
 .provas-por-assunto {
-    background-color: #f0f0e9;
+    background-color: #EBE9DD;
     padding: 50px 20px;
     text-align: left;
+    display: flex;
+    justify-content: space-between;
 }
 
 .provas-por-assunto h1 {
     color: #2F6123;
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 
 .provas-por-assunto p {
     color: #4f4f4f;
     font-size: 1.2em;
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 .botao-lista {
@@ -43,7 +45,7 @@ body {
     font-weight: bold;
     text-align: left;
     display: inline-block;
-    width: fit-content;
+    width: 350px;
     transition: background-color 0.3s ease;
 }
 
@@ -57,5 +59,5 @@ body {
 }
 
 img{
-	width: 100%;
+	width: 80%;
 }
